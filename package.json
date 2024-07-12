@@ -3,7 +3,7 @@
     "type": "module",
     "scripts": {
         "dev": "concurrently \"npm run serve\" \"npm run vite\"",
-        "vite": "vite --https",
+        "vite": "vite",
         "build": "vite build",
         "serve": "php artisan serve"
     },
