@@ -3,9 +3,9 @@
     "type": "module",
     "scripts": {
         "dev": "concurrently \"npm run serve\" \"npm run vite\"",
-        "vite": "vite",
+        "vite": "vite --https",
         "build": "vite build",
-        "serve": "php artisan serve --host 0.0.0.0"
+        "serve": "php artisan serve"
     },
     "devDependencies": {
         "@headlessui/react": "^1.4.2",
