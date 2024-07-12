@@ -55,7 +55,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://mynotes-production-d67d.up.railway.app'),
+    'url' => env('APP_URL', 'https://mynotes-production-948b.up.railway.app'),
 
     'asset_url' => env('ASSET_URL'),
 
