@@ -2,10 +2,8 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "dev": "concurrently \"npm run serve\" \"npm run vite\"",
-        "vite": "vite",
-        "build": "vite build",
-        "serve": "php artisan serve"
+        "dev": "vite",
+        "build": "vite build"
     },
     "devDependencies": {
         "@headlessui/react": "^1.4.2",
