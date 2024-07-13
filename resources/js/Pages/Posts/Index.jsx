@@ -20,7 +20,7 @@ export default function PostsIndex({ auth, posts }) {
             if (result.isConfirmed) {
                 await Swal.fire({
                     title: "Deleted!",
-                    text: "Your post has been deleted.",
+                    text: "Your note has been deleted.",
                     icon: "success",
                 });
                 Inertia.delete(route("posts.destroy", id));

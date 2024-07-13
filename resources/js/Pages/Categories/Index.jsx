@@ -112,7 +112,7 @@ export default function CategoriesIndex({ auth, categories }) {
                                     {categories.length === 0 && (
                                         <tr>
                                             <td
-                                                colSpan="4"
+                                                colSpan="3"
                                                 className="px-6 py-4 whitespace-nowrap text-sm text-center text-gray-900 font-medium"
                                             >
                                                 No Category Found

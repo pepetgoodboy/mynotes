@@ -23,7 +23,7 @@ export default function EditPost({ auth, post, categories }) {
             if (result.isConfirmed) {
                 await Swal.fire({
                     title: "Updated!",
-                    text: "Your post has been updated.",
+                    text: "Your note has been updated.",
                     icon: "success",
                 });
                 Inertia.put(route("posts.update", post.id), {

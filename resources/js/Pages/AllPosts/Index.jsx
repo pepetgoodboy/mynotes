@@ -121,7 +121,7 @@ export default function PostsIndex({ auth, posts }) {
                                     {posts.length === 0 && (
                                         <tr>
                                             <td
-                                                colSpan="5"
+                                                colSpan="6"
                                                 className="px-6 py-4 whitespace-nowrap text-sm text-center text-gray-900 font-medium"
                                             >
                                                 No Notes Found
