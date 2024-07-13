@@ -10,7 +10,4 @@ export default defineConfig({
         }),
         react(),
     ],
-    server: {
-        https: process.env.VITE_USE_HTTPS === "true",
-    },
 });
